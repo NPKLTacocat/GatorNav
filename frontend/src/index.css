@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.building-label {
+  /* Override leaflet default css */
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  /* Tailwindcss where possible to keep consistency */
+  @apply font-semibold text-xs text-gray-800 whitespace-nowrap;
+}

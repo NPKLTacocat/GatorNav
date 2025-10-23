@@ -119,7 +119,7 @@ const Map = () => {
     <MapContainer
       center={[29.6483, -82.3494]}
       zoom={20}
-      className="h-screen w-screen flex justify-center items-center"
+      className="h-full w-full"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
